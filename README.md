@@ -4,32 +4,43 @@
 
 ## Description
 
+Creates an order structure on the target system, in this case for support tools.
+
 ## Installation
 
 ```bash
-ansible-galaxy install sbaerlocher.source-of-supply
+ansible-galaxy install sbaerlocher.source_of_supply
 ```
 
 ## Requirements
+
+None
 
 ## Role Variables
 
 | Variable             | Default     | Comments (type)                                   |
 | :---                 | :---        | :---                                              |
-| | | |
-| | | |
+| source_of_supply_name | Support | Name of main folder. |
+| source_of_supply_directorys | - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\facts.d" | List of folders to create. |
+| | - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\startlayouts" | |
 
 ## Dependencies
+
+None
 
 ## Example Playbook
 
 ```yml
 - hosts: all
   roles:
-     - sbaerlocher.source-of-supply
+     - sbaerlocher.source_of_supply
 ```
 
 ## Changelog
+
+### 1.0
+
+* inital commit
 
 ## Author
 
@@ -41,4 +52,4 @@ This project is under the MIT License. See the [LICENSE](https://sbaerlo.ch/lice
 
 ## Copyright
 
-(c) 2017, Simon Bärlocher
+(c) 2018, Simon Bärlocher
