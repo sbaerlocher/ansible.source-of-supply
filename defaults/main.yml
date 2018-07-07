@@ -1,2 +1,9 @@
 ---
 # defaults file for sbaerlocher.source-of-supply
+
+source_of_supply_name: Support
+source_of_supply_root_directory: "{{ source_of_supply_root }}\\{{ source_of_supply_name }}"
+
+source_of_supply_directorys:
+  - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\facts.d"
+  - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\startlayouts"
