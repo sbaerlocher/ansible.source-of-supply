@@ -8,4 +8,3 @@
   with_items:
     - "{{ source_of_supply_root_directory }}"
     - "{{ source_of_supply_directorys }}"
-
