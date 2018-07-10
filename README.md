@@ -22,7 +22,8 @@ None
 | :---                 | :---        | :---                                              |
 | source_of_supply_name | Support | Name of main folder. |
 | source_of_supply_directorys | - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\facts.d" | List of folders to create. |
-| | - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\startlayouts" | |
+| | - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\xml.d" | |
+| | - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\tools.d" | |
 
 ## Dependencies
 
@@ -38,7 +39,11 @@ None
 
 ## Changelog
 
-### 1.0
+### 1.0.1
+
+* new default folder add
+
+### 1.0.0
 
 * inital commit
 
