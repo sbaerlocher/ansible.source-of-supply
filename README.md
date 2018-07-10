@@ -38,7 +38,11 @@ None
 
 ## Changelog
 
-### 1.0
+### 1.0.1
+
+* new default folder add
+
+### 1.0.0
 
 * inital commit
 
