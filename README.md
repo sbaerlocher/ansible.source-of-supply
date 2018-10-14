@@ -1,6 +1,6 @@
 # Ansible Role: source-of-supply
 
-[![Build Status](https://travis-ci.org/sbaerlocher/ansible.source-of-supply.svg?branch=master)](https://travis-ci.org/sbaerlocher/ansible.source-of-supply) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://sbaerlo.ch/licence) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-source-of-supply-blue.svg)](https://galaxy.ansible.com/sbaerlocher/source-of-supply)
+[![Build Status](https://travis-ci.org/sbaerlocher/ansible.source-of-supply.svg?branch=master)](https://travis-ci.org/sbaerlocher/ansible.source-of-supply) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://sbaerlo.ch/licence) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-source--of--supply-blue.svg)](https://galaxy.ansible.com/sbaerlocher/source_of_supply)
 
 ## Description
 
