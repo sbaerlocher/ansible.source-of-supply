@@ -8,3 +8,4 @@ source_of_supply_directorys:
   - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\facts.d"
   - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\xml.d"
   - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\tools.d"
+  - "{{ source_of_supply_root }}\\{{ source_of_supply_name }}\\ansible"
